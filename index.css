@@ -9,7 +9,6 @@
 .centerLayer {
   padding: 0;
   margin: 0;
-  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
