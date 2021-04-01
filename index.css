@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Conv_calibrib';
+  src: url('fonts/calibrib.eot');
+  src: local('☺'), url('fonts/calibrib.woff') format('woff'), url('fonts/calibrib.ttf') format('truetype'), url('fonts/calibrib.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.centerLayer {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  height: 100%;
+}
+
+p.vk {
+  background-color: #E3D60E;
+  color: #212121;
+  display: inline-block;
+  padding: 15px 100px;
+  font-size: 50px;
+  font-family: Conv_calibrib; 
+  text-align: center;
+  border-radius: 100px;
+  margin: 12px;
+}
+
+p.vk:hover {
+  transition: .5s;
+  background-color: #0EA4E3;
+  color: #ECECEC;
+}
+
+p.telegram {
+  background-color: #E3D60E;
+  color: #212121;
+  display: inline-block;
+  padding: 15px 115px;
+  font-size: 50px;
+  font-family: Conv_calibrib;  
+  text-align: center;
+  border-radius: 100px;
+  margin: 12px;
+}
+
+p.telegram:hover {
+  transition: .5s;
+  background-color: #37BDCD;
+  color: #ECECEC;
+}
+
+p.instagram {
+  color: #212121;
+  background-color: #E3D60E;
+  display: inline-block;
+  padding: 15px 102px;
+  font-size: 50px;
+  font-family: Conv_calibrib;  
+  text-align: center;
+  border-radius: 100px;
+  margin: 12px;
+}
+
+p.instagram:hover {
+  transition: .5s;
+  color: #ECECEC;
+  background-color: #D2407A;
+}
+
+p.youtube {
+  color: #212121;
+  background-color: #E3D60E;
+  display: inline-block;
+  padding: 15px 115px;
+  font-size: 50px;
+  font-family: Conv_calibrib;  
+  text-align: center;
+  border-radius: 100px;
+  margin: 12px;
+}
+
+p.youtube:hover {
+  transition: .5s;
+  color: #ECECEC;
+  background-color: #DF3A3A;
+}
+
+a {
+  color: #212121; /* Цвет ссылок */
+   }
+a:visited {
+  color: #212121; /* Цвет посещенных ссылок */
+}
+a:active {
+  color: #212121; /* Цвет активных ссылок */
+}
