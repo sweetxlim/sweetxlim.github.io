@@ -7,6 +7,9 @@
 }
 
 .centerLayer {
+  padding: 0;
+  margin: 0;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,10 +17,10 @@
   height: 100%;
 }
 
-p.vk {
+.vk {
   background-color: #E3D60E;
   color: #212121;
-  display: inline-block;
+  display: block;
   padding: 15px 100px;
   font-size: 50px;
   font-family: Conv_calibrib; 
@@ -26,16 +29,16 @@ p.vk {
   margin: 12px;
 }
 
-p.vk:hover {
+.vk:hover {
   transition: .5s;
   background-color: #0EA4E3;
   color: #ECECEC;
 }
 
-p.telegram {
+.telegram {
   background-color: #E3D60E;
   color: #212121;
-  display: inline-block;
+  display: block;
   padding: 15px 115px;
   font-size: 50px;
   font-family: Conv_calibrib;  
@@ -44,16 +47,16 @@ p.telegram {
   margin: 12px;
 }
 
-p.telegram:hover {
+.telegram:hover {
   transition: .5s;
   background-color: #37BDCD;
   color: #ECECEC;
 }
 
-p.instagram {
+.instagram {
   color: #212121;
   background-color: #E3D60E;
-  display: inline-block;
+  display: block;
   padding: 15px 102px;
   font-size: 50px;
   font-family: Conv_calibrib;  
@@ -62,16 +65,16 @@ p.instagram {
   margin: 12px;
 }
 
-p.instagram:hover {
+.instagram:hover {
   transition: .5s;
   color: #ECECEC;
   background-color: #D2407A;
 }
 
-p.youtube {
+.youtube {
   color: #212121;
   background-color: #E3D60E;
-  display: inline-block;
+  display: block;
   padding: 15px 115px;
   font-size: 50px;
   font-family: Conv_calibrib;  
@@ -80,7 +83,7 @@ p.youtube {
   margin: 12px;
 }
 
-p.youtube:hover {
+.youtube:hover {
   transition: .5s;
   color: #ECECEC;
   background-color: #DF3A3A;
@@ -88,10 +91,13 @@ p.youtube:hover {
 
 a {
   color: #212121; /* Цвет ссылок */
-   }
+  text-decoration: none;
+}
 a:visited {
   color: #212121; /* Цвет посещенных ссылок */
+  text-decoration: none;
 }
 a:active {
   color: #212121; /* Цвет активных ссылок */
+  text-decoration: none;
 }
